@@ -1,6 +1,6 @@
 # Metro LBS
 
-Ứng dụng **Local Beam Search** trong thiết kế tối ưu mạng lưới trạm Metro TP.HCM giai đoạn mở rộng.
+**Ứng dụng thuật toán Local Beam Search trong tối ưu hóa thiết kế mạng lưới trạm Metro tại Thành phố Hồ Chí Minh**
 
 Đồ án môn Trí tuệ nhân tạo — HCMUTE.
 
