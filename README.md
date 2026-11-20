@@ -32,14 +32,25 @@ metro-lbs/
 └── README.md
 ```
 
-## 4. Cài đặt
+## 4. Cài đặt và chạy
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+# 1. Tạo môi trường ảo
+python3 -m venv .venv
+
+# 2. Kích hoạt môi trường ảo
+source .venv/bin/activate        # Linux/Mac
+# .venv\Scripts\activate         # Windows
+
+# 3. Cài thư viện
 pip install -r requirements.txt
+
+# 4. Chạy Jupyter Notebook
 jupyter notebook
 ```
+
+> **Lưu ý:** Trên một số hệ thống Linux, dùng `python3` thay vì `python`.
+> Nếu muốn dùng lệnh `python` trực tiếp: `sudo apt install python-is-python3`
 
 ## 5. Phân chia công việc
 
